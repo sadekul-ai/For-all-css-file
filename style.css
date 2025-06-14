@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 24px; 
+  line-height: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  object-fit: cover;
+}
+
+section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+/* Extra small devices (phones, 426px and down) */
+@media only screen and (max-width: 426px) {
+  body {background: red;}
+
+  section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
+
+/* Small devices (landscape phones and portrait tablets, 426px and 769px) */
+@media only screen and (min-width: 426px) and (max-width: 769px) {
+  body {background: green;}
+
+  section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+/* Medium devices (landscape tablets and laptops, 769px and 1025px) */
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  body {background: blue;}
+
+  section {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+} 
+
+/* Large devices (laptops/desktops, 1025px and 1441px) */
+@media only screen and (min-width: 1025px) and (max-width: 1441px) {
+  body {background: orange;}
+
+  section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+} 
+
+/* Extra large devices (larger desktops and monitors, 1441px and up) */
+@media only screen and (min-width: 1441px) {
+  body {background: pink;}
+
+  section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+}
+/*--
+<script src="https://kit.fontawesome.com/cad99c5bb8.js" crossorigin="anonymous"></script>
+--*/
